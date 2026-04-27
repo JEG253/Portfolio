@@ -1,0 +1,130 @@
+/* GENERAL */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #121212; /* overall dark */
+  color: #e5e5e5;
+}
+
+/* HERO */
+.hero-image {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+  url("Code-and-Technology-Narrative-main/images/istockphoto-187722063-612x612.jpg.jpg");
+
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* HERO TEXT */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+
+.hero-text h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.hero-text p {
+  font-size: 25px;
+}
+
+/* SECTION SPACING */
+.container-fluid {
+  padding: 80px 40px;
+}
+
+/* DARK SECTIONS (PRIMARY) */
+.bg-w {
+  background-color: #1a1a1a; /* dark gray */
+  color: #e5e5e5;
+}
+
+/* DARK SECTIONS (ALTERNATE) */
+.bg-b {
+  background-color: #0f172a; /* dark navy */
+  color: #ffffff;
+}
+
+/* TEXT */
+p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #d1d5db;
+}
+
+/* HEADINGS */
+h1, h3, h4 {
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* IMAGES */
+.img-responsive {
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* HOVER EFFECT */
+.hover {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.hover img {
+  transition: 0.3s ease;
+}
+
+.hover:hover img {
+  opacity: 0.7;
+  transform: scale(1.05);
+}
+
+/* FOOTER IMAGE */
+.center-large-image {
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #000;
+  color: #aaa;
+}
+
+/* CSS-only image zoom */
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  inset: 0;
+  background: rgba(0,0,0,0.9);
+  text-align: center;
+  padding-top: 40px;
+}
+
+.lightbox:target {
+  display: block;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 90vh;
+  border-radius: 8px;
+}
+
+.zoom-link {
+  cursor: zoom-in;
+}
