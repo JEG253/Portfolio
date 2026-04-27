@@ -1,0 +1,290 @@
+<!--Welcome! Read through these code comments for instructions on how to design a code and digital technology narrative project where audiences can learn about who you are and where you're going. Along the way, you'll learn everything you need to know to get started working with code.-->
+
+<!--HTML pages start by calling <!DOCTYPE html> and designating a language. In this case, United States English. Search engines, browsers, and screen readers use this information to deliver content specific to user needs.-->
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<!--The <head> element contains additional information for search engines and browsers.--> 
+<!--The <title> tag controls the name on the browser tab and the next line of code adds a favicon image.-->
+  <title>I am...</title>   
+  <link rel="icon" type="image/jpg" href="favicon.jpg">
+<!--This website follows the Unicode 8-bit character set that standardizes all of the letters from all of the languages in the world--emojis too!-->
+  <meta charset="UTF-8">
+<!--This viewport <meta> tag standard tells browsers how to display the website across different sized screens.-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--This <link> (rel)ates to the cascading style sheet or CSS in your project folder. Web designers use CSS to add styling to a website. Using CSS saves time and results in fewer lines of code.-->
+  <link rel="stylesheet" type="text/css" href="style.css"> 
+<!--We've added Google Fonts to The Webtext Generator. Go to https://www.w3schools.com/howto/howto_google_fonts.asp to find fonts and add them to this stylesheet link and to the html selector on style.css-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<!--The <body> element organizes all of the code and content that actually appears on a screen. You can change the background color by opening the style.css document in the body tag properties. Choose a color with enough contrast for your audience. Neutral colors work best for the greatest number of viewers.-->
+<body>
+
+<!--Developers refer to this next section as the "hero image. 
+Fill in the blank between <h1>"I am..."</h1> and see what happens.-->
+    
+<!--Glitch a .jpg image by editing the source code. Open the digital image file using “text/edit” on Macs (located in Launchpad/other), "Notepad" on Windows, or "text" on Chromebooks (located in App launcher). Make a test glitch: scroll down to the middle of the document. Copy, cut, move, and paste 10-20 lines of code. Hit save. Then open the original image to see what has changed. Once you understand your reference position, you can begin glitching with more precision.   
+   
+To add your glitch image, simply find and delete the hero.jpg file in the project folder. Then name your glitched image file to the project folder and name it "hero.jpg." If an image is larger than 1200px in width, you will want to resize it speed up load time. Crop image height to ensure desired fit.--> 
+
+<!--The "hero-image" properties are controlled on the style.css document. We know this because the <div> calls the class="hero-image". You can open the style.css file and find the hero-image class to edit its properties. Alternatively you can edit the file height by cropping the image to fit within the hero-image.--> 
+
+<div class="hero-image">
+  <div class="hero-text">
+      <h1>I am John Gamal</h1>
+      <h2>My Code and Digital Technology Narrative</h2>
+  </div>
+</div>
+
+<!--Privacy is important factor to consider in online composing. How much do you want others to know about you and what images do you want circulating on the internet? Choose your images and other content carefully and be thoughtful about how your content could impact others. If you are concerned about issues of privacy, you can always use stock images, or get creative in other ways.-->
+
+<!--We'll use this first textblock to do a little writing about who we are, where and what we teach, and telling a story about code or a digital technology.-->
+<div class="text-block" style="text-align: left">
+<!--"Align text left/right/center using inline style properties. To improve accessibility, always left-align text longer than three lines.-->
+  <h2>Introduction</h2>
+    <p>My name is John Gamal. I am from Virginia. I am currently in Pittsburgh, PA, studying Bioengineering at the University of Pittsburgh. For some time now, my primary means of experiencing stories and video games has been through this tiny handheld video game console. When it broke down, I could not afford to buy another one, and buying NEW games was out of the question. Losing my console felt as if I lost access to an entire world that I had only recently begun to discover. While I searched for a new way to play the games I love, I stumbled upon emulators for the Nintendo DS. At first, I didn’t even think about how they worked; I was just thrilled that they could work for me. However, the installation process was confusing, filled with unfamiliar terms, and when I finally found a game that started properly, it was nowhere near perfect. The audio lagged, the screen was misaligned, and the controls were awkwardly distributed. Nevertheless, I felt as if I had found a solution to a problem I had never thought I would have been able to solve. This experience changed the way I view digital technology. I now see it not just as a single, static piece of technology but as something that can be modified and adapted to fit different people with different knowledge levels and resources. Furthermore, I became increasingly aware of how technology can keep people out of it as well as provide access to it through finance or lack thereof. When I explore new devices or platforms, I always reference my experience with my broken DS and the emulator I came up with to play my old games. It makes me think about the people who have access to that particular new technology and under what conditions they have access to it.</p>
+</div>
+<a href="../index.html" class="back-btn">← Back to Portfolio</a>
+    
+<!--Add images of digital technologies that factored in your development. We recommend using Creative Commons licensed images.-->
+<div class="flexbox-container">
+  <div class="row">
+      <div class="column">
+          <img src="63655997_e4c0820950_o.jpg" alt="Nintendo DS handheld gaming console">
+          <img src="d6dyi9i-73e3a044-9c06-4460-9d70-1f7839ea8b51.png" alt="Emulators on iphone screen">
+      </div>
+      <div class="column">
+          <img src="A_2021_14-inch_Silver_MacBook_Pro.jpg" alt="MacBook Pro laptop">
+          <img src="3229097152_7903268b4d_z.jpg" alt="iPad tablet">
+      </div>
+      <div class="column">
+          <img src="minecraft_14_3.jpg" alt="Minecraft game interface">
+          <img src="ps4-console-wds4-8a60b4-1024.jpg" alt="PlayStation 4 console">
+      </div>
+  </div>
+      <p><i>Technologies that have figured prominently in my attitudes about code and digital technology.</i></p>
+  </div>
+    
+<!--Flexbox uses rows and column classes to create layouts that scale content across devices. The style.css page provides other attributes that will adjust the image depending on the size of screens. Add images to your project folder and make sure the file name/type matches in your code. Resize images to less than 600px in width. This will improve load time accessibility. Don't forget to add alt="text"-->
+
+<!--Conduct your own Dear Data inquiry…collecting, analyzing, and communicating data (Shout out to Dear Data authors Georgia Lupi and Stefanie Posavec). Use your built-in screen time monitoring features on your phone, tablet, and computer to assist you in tracking your technology use over 5-7 days. Then create a data visualization using colored pencils, crayons, or markers that tells the story of you and your data. Here's our framing question “How do you interact with technology and in what ways? (frequency and distribution of various activities.) For example: What apps get you through your day, what kinds of media are you consuming, what kinds of websites are you using?-->
+
+    <div class="text-block" style="text-align: left">
+  <h2>Everyday Code</h2>
+    <p>Based on my screen time data, it's clear that a lot of what I do digitally occurs in just one window, with the majority of my time spent on Google Chrome compared to any other app. Basically, every aspect of my digital life (study/research, communication) as well as all of my "distraction" time is contained within the same Google Chrome window, which is reflected in my screen time data. So, although each activity within Google Chrome seems quite different to me at the time I engage in them, how they show up within my data is actually very similar.
+As I tracked my usage over the past year, I saw major changes in how I interacted with technology. After knowing I was recording screen time, I started becoming very conscious about when I opened new tabs or checked messages; I also noticed how often I used my laptop not for one long task but instead did numerous short tasks repeatedly, all of which added together without my knowing it. I wonder whether the way that I interact with digital systems also reflects how digital systems and code shape what we do and how we do it by making it easier for us to carry out and see certain activities while making it harder for us to see and participate in others.
+The data created for the purposes of this project accurately depicts my use of technology as being primarily based on productivity instead of social/entertainment purposes. My time spent in Chrome, MATLAB, and Outlook was more indicative of who I am as a student than I thought it would be. It also challenged the way I think about how I communicate. I feel like I spend a great deal of time communicating; however, the actual numbers show that I spent a much smaller portion of my day communicating than I initially thought.
+While there were many parts of my data that were accurate, there were also numerous aspects that were inaccurate. For example, a long period spent within the Chrome browser could represent either intense focus on schoolwork, casual browsing, or watching something on Netflix to relax; however, the visual representation of my time spent doesn't capture this distinction. The visualization provides an accurate measure of the duration of my session in Chrome, but it does not capture why I was using Chrome and what my emotional state was while I was using the technology.
+What I learned from this is that while there is generally a story being told through the data, it never tells the complete story; just as I learned through my work with emulators that there are multiple layers present within the framework of a single screen; I have learned from this project that there are multiple layers that affect a single data point (e.g., Number of sessions in my screen time chart) and therefore my relationship with technology is defined by the availability of technology; ease of access; stress levels; uncertainty; habit and therefore in and of themselves the available variables cannot be defined entirely by a category or represented in a bar graph.
+</p>
+</div>
+    
+<!--Take a picture of your data visualization and use it to replace this image. Control image width using inline styling. Adjust frame using class selector on style.css.-->
+<div>
+  <img class="frame" src="34b00b9e-cd7b-4ab5-b5bb-60c829d6338c.png" width="25%" alt="screen time data visualization">
+<!--Add alt="text" image descriptions for visually impaired individuals using screen readers. Describe your image as clearly and succinctly as possible. Add captions. They provide another important layer of accessibility.-->
+    <div class="caption"><i>My Dear Data Visualization shown as screentime of my MacBook</i></div>
+</div>
+
+<!-- Go to style.css page to experiment with "frame class" properties like "background/padding/border/margin." You can also experiment with image filters and "border-radius."-->
+  
+<!--In this section, we'll move from talking about us to how code and digital technology has affected the rhetoric and composition classroom-->
+<div class="text-block" style="text-align: left">
+  <h2>Code and digital technology impact on education</h2>
+    <p>How we learn has been changed by the use of Code and Digital Technology. The use of these tools has increased the availability of information and the immediacy and personalization of how we learn. You are no longer limited to learning from a textbook or attending Class but can also use Search Engines, Tutorials, Simulations, and Collaboration with Online Communities. The algorithms behind the recommended videos and suggested articles, along with the auto-completion of the questions you ask on the Internet, now determine how and what you see first. As a result, your way of learning is now less about your Teacher and Syllabus and more about algorithms determining your path of learning.
+The speed and flexibility of the current learning environment created through Code and Digital Technology is beneficial, but it also creates a loss of visibility to the path that you take to learn. 
+It is important to recognize the role Code and Digital Technology play in that they are part of your overall "Digital Literacy". Digital Literacy has transitioned to mean: Understand How Tools Work, as well as How to Use Them. Recognizing that Digital Platforms have an Algorithmic Backbone, collect your Data, and also use Design Choices to influence you, helps you to question why certain information is presented to you, what information has been left out, and how you are influenced to behave.
+If we do not take these things into account, we run the risk of treating Digital Technology as Neutral; however, Digital Technologies have been shaped by Humans and the Values, Priorities, and Limitations they have imposed on Digital Systems.
+Therefore, when you learn to read and Write Code, you also learn to read and write the Rules Within the Digital World. This means you have the ability to not only participate in Digital Environments but also Critisize and, when possible, Redesign those Environments.</p>
+</div>
+
+<!--You can keep or replace this polaroid image with something else. You can find other elements like YouTube video players in the "code repository" at the bottom of this HTML page. Simply copy and paste the code snippets where you want them to appear on your website.-->
+<div class="polaroid">
+  <img src="free-photo-of-close-up-of-a-white-duck-s-face-in-nature.jpeg" alt="A close-up of a white duck's face in nature" style="width:100%">
+     <div class="polaroid-caption">
+        <p><i>WATCH OUT A DUCK</i></p>
+      </div>
+  </div>
+
+<!--Let's think a little about what we have learned and how we can apply this knowledge and skills moving forward.-->
+<div class="text-block" style="text-align: left">
+  <h2>Moving forward with technology</h2>
+    <p> In my opinion, the integration of technology and coding will eventually lead to advancements in the field of neuroengineering, which uses computational models and analytic methods to develop ways to study, interface with, and understand neural systems. I am excited about software's capacity to decode neural impulses into quantitative analysis tools for applications in research, diagnostics, and the development of brain-computer interaction systems.
+To reach this goal, I would like to improve upon or add to my experience programming in Python and MATLAB as it relates to developing new techniques for processing signals, developing ML-based classification systems, and analyzing neural data. As well as being able to do these things using programming languages (Python, MATLAB), I want to understand more about how to build systems that allow for real-time data processing and develop algorithms for classifying "noisy" signals generated by biological sources and their practical, experimental, or clinical utility.
+The role of technology is to facilitate the understanding and measurement of neural activity, and in turn, ultimately develop and implement new neurotechnologies that will improve the efficiency and accessibility of these systems.
+</p>
+</div>
+
+  <!--Like a hero image, a parallax window provides a degree of animation for your viewer. Replace this image. The "parallax" class properties are controlled on the style.css document.-->
+<div class="parallax funky-bg"></div>
+
+<div class="caption funky-caption">
+  <p>⚡ <span class="glow">Ignite the Code</span> ⚡</p>
+</div>
+
+<div class="logo funky-logo">
+  <img src="istockphoto-187722063-612x612.jpg" alt="Open Fuego Flame">
+  <p class="credit">
+    generated by 
+    <a href="https://open-fuego.github.io/Open-Fuego-Coding-Tools/">Open Fuego</a>
+  </p>
+  <p class="tagline">🔥 Why make a spark when you can light a fire? 🔥</p>
+</div>
+    <div class="footer">
+    <p><i>Copyright John Gamal, 2026.</i></p>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+  <!--Looking to add components? You've come to the right place. Copy and paste Code Snippets and add to the body section. Adjust class CSS properties on style.css.
+
+
+    ***Add Text block***
+
+    (Format textblock using inline styling: text-align: left, center, justify, right. To improve accessibility, always left-align text longer than three lines; Format text: <i>italics</i>; <b>bold</b>; <u>underline</u>; <mark>highlight</mark>; <sup>superscript</sup>; <sub>subscript</sub>; Link Website: <a href="link">LinkName</a>; Line Breaks: <br></br>;
+
+  <div class="text-block" style="text-align: left">
+    <h2>Header</h2>
+       <p>We recommend using our mobile-ready text sizing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+
+
+    ***Add Pull Quote***
+
+    (Format text: Italics: <i>italics</i>; Bold: <b>bold</b>. Change font and font size using CSS)
+
+  <div class="pull-quote" style="text-align: center">
+    <h2>Excepteur sint occaecat cupidatat non proident!</h2>
+  </div>
+
+
+
+    ***Bulleted Points or List***
+
+    (Nest within text-block or style using CSS. Change <ul> to <ol> in HTML to switch from unordered list to ordered list.)
+
+  <div>
+    <ul>
+      <li>first</li>
+      <li>second</li>
+      <li>third</li>
+    </ul>
+  </div
+
+
+
+    ***Add Link that Looks Like a Button***
+
+    (Clearly label link action. For more stylings, find button-box class properties on style.css)
+
+  <div class="button-box">
+    <a href="" class="button">Go to...</a>
+  </div>
+
+
+
+    ***Add CSS Flexbox Container with Placeholder Images***
+
+    (Add or subtract columns. Control column width using CSS.)
+
+  <div class="flexbox-container">
+    <div class="row">
+        <div class="column">
+            <img src="pgrid1.jpg" alt="describe the image HERE for accessibility purposes">
+            <img src="pgrid2.jpg" alt="describe the image HERE for accessibility purposes">
+        </div>
+        <div class="column">
+            <img src="pgrid3.jpg" alt="describe the image HERE for accessibility purposes">
+            <img src="pgrid4.jpg" alt="describe the image HERE for accessibility purposes">
+        </div>
+        <div class="column">
+            <img src="pgrid5.jpg" alt="describe the image HERE for accessibility purposes">
+            <img src="pgrid6.jpg" alt="describe the image HERE for accessibility purposes">
+        </div>
+    </div>
+        <p><i>Add a caption.</i></p>
+  </div>
+
+
+
+    ***Add Image Frame and Filters***
+
+    (Control image width using inline styling. Adjust "frame" class properties using CSS.)
+
+  <img class="frame" src="fuego.jpg" width="50%" alt="describe the image HERE for accessibility purposes">
+    <div class="caption">
+      <p><i>Add a caption</i></p>
+    </div>
+  
+
+
+
+    ***Add Polaroid***
+
+    (Control image width using CSS.)
+
+  <div class="polaroid">
+    <img src="polaroid.jpg" alt="describe the image HERE for accessibility purposes">
+      <div class="polaroid-caption">
+        <p><i>Add a caption</i></p>
+      </div>
+  </div>
+
+
+
+      ***Add Image Container with Text Box***
+
+      (Control Image Frame class properties using CSS.)
+
+  <div class="image-container">
+    <img src="image.jpg" alt="describe image here">
+      <div class="image-container-text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+  </div>
+
+
+
+    ***Add Parallax Window***
+
+      (Adjust properties using parallax class on style.css)
+
+  <div class="parallax"></div>
+    <div class="caption">
+      <p><i>Add a caption.</i></p>
+  </div>
+
+
+
+    ***Embed YouTube Video***
+
+  <div class="video">
+    <div class="video-container">
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/cmocHqJ2UvI?si=_HDwUlW2j4tz6Keb" title="YouTube video player" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+       <p><i>Add a caption.</i></p>
+  </div>
+
+
+    ***Add Copyright Footer***
+
+  <div class="footer">
+    <p><i>Copyright Your Name, Year.</i></p>
+  </div>
+
+
+
+    ***Need something that's not here? Go to https://www.w3schools.com to find all kinds of resources to facilitate your code learning.***
